@@ -1,0 +1,158 @@
+.mpfe_wrap {
+	margin: 40px 30px;
+	max-width: 1000px;
+}
+.mpfe_wrap_head {
+	margin-bottom: 30px;
+}
+.wpfe_wrap_block, .mpfe_admin_content {
+    font-size: 16px;
+    line-height: 1.8em;
+}
+p.mpfe_admin_content {
+	margin: 25px 0;
+}
+.wpfe_wrap_block {
+    background-color: #fff;
+    padding: 21px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.wpfe_wrap_block h4 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.img_yt {
+    max-width: 450px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+body.admin-color-fresh #adminmenu #toplevel_page_mpfe-dashboard a[href="admin.php?page=mpfe-musician-tools"] {
+	color: #f13276;
+}
+.mpfe_left, .mpfe_right {
+	display: inline-block;
+	float: left;
+}
+.mpfe_left {
+	width: 50%;
+	padding: 40px 35px;
+}
+.mpfe_left h1 {
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+.mpfe_right {
+	width: 50%;
+    background-image: url(../img/slide-promo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.mpfe_wrap_head_tc {
+	display: flex;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-bottom: 60px;
+}
+.mpfe_adm_btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: #c209d4;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.mpfe_adm_btn:hover, .mpfe_adm_btn:focus {
+	background-color: #f13276;
+	color: #fff;
+}
+.btn_cont {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.star_rating_msg {
+	margin-left: 10px;
+	color: #909090;
+}
+.star_rating img {
+	vertical-align: bottom;
+}
+img.pro_widget_img {
+	max-width: 100%;
+}
+.pro_widget_name {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 6px auto;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #3c434a;
+}
+.mpfe_widget_lnk, .mpfe_widget_lnk:focus {
+	box-shadow: none;
+	text-decoration: none;
+}
+.mpfe_more_widgets {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  height: 2000px;
+}
+.mpfe_more_widgets::before,
+.mpfe_more_widgets::after {
+  content: "";
+  flex-basis: 100%;
+  width: 0;
+  order: 2;
+}
+.mpfe_widget_container {
+	box-sizing: border-box;
+	background-color: #fff;
+	padding: 10px 10px 0 10px;
+	border-radius: 5px;
+	width: 32%;
+	margin-bottom: 30px;
+	-webkit-box-shadow: 4px 6px 13px -2px rgba(0,0,0,0.15); 
+	box-shadow: 4px 6px 13px -2px rgba(0,0,0,0.15);
+}
+.mpfe_widget_container:hover {
+	-webkit-box-shadow: 4px 6px 13px -2px rgba(0,0,0,0.4); 
+	box-shadow: 4px 6px 13px -2px rgba(0,0,0,0.4);	
+}
+.mpfe_widget_container:nth-child(3n+1) { order: 1; }
+.mpfe_widget_container:nth-child(3n+2) { order: 2; }
+.mpfe_widget_container:nth-child(3n)   { order: 3; }
+.wpfe_wrap_block.wpfe_promo {
+    position: fixed;
+    top: 120px;
+    right: 50px;
+    width: 21%;
+    box-sizing: border-box;
+    padding: 40px 30px;
+	box-shadow: 0 0 19px rgb(0 0 0 / 8%);
+}
+.text_center {
+	text-align: center;
+}
+.mpfe_icon_pro img {
+	margin-bottom: 30px;
+	max-width: 100px;
+}
+.vibrant_color {
+	color: #f7366b;
+	font-weight: 600;
+}
+.pro_features {
+	margin-top: 35px;
+	margin-bottom: 40px;
+}
+.checked {
+	width: 15px;
+	margin-right: 10px;
+}
+.single_feat {
+	margin-bottom: 15px;
+}
